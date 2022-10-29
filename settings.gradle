@@ -1,0 +1,4 @@
+rootProject.name = 'spring'
+include 'framework'
+include 'spring-exmple'
+
