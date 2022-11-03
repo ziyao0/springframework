@@ -2,7 +2,7 @@ allprojects {
 
     apply plugin: 'java-library'
 
-    group 'org.kissing'
+    group 'org.eason'
     version '1.0-SNAPSHOT'
 
     repositories {

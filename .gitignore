@@ -1,5 +1,4 @@
 HELP.md
-**/target/
 !**/src/main/**
 !**/src/test/**
 
@@ -12,3 +11,4 @@ HELP.md
 
 # Gradle ignore
 .gradle
+**/build/
