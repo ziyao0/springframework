@@ -64,7 +64,7 @@ public class AnnotationConfigApplicationContext implements ApplicationContext {
                         }
                         final BeanDefinition beanDefinition = new BeanDefinition();
                         beanDefinition.setBeanClass(beanClass);
-                        //设置是否懒加载
+
                         if (beanClass.isAnnotationPresent(Lazy.class)) {
                             beanDefinition.setLazy(true);
                         }
@@ -123,7 +123,6 @@ public class AnnotationConfigApplicationContext implements ApplicationContext {
         try {
             final Object bean = beanClass.newInstance();
 
-            // 执行初始化
             if (bean instanceof InitializingBean) {
                 ((InitializingBean) bean).afterPropertiesSet();
             }
