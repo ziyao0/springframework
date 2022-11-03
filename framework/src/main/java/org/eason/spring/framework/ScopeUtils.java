@@ -1,7 +1,7 @@
 package org.eason.spring.framework;
 
 /**
- * @author zhangziyao
+ * @author Eason
  * @date 2022/7/19 10:09
  */
 public abstract class ScopeUtils {

@@ -1,7 +1,7 @@
 package org.eason.spring.core;
 
 /**
- * @author zhangziyao
+ * @author Eason
  * @date 2022/7/20 16:08
  */
 public interface BeanPostProcessor {

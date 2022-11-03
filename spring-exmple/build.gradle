@@ -1,4 +1,6 @@
 dependencies {
-     api project(":framework")
-//    implementation('org.springframework:spring-context:5.3.20')
+    api project(":framework")
+    api project(":springboot")
+    api project(":mybatis-spring")
+    api 'org.apache.tomcat.embed:tomcat-embed-core:9.0.64'
 }

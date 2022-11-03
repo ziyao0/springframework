@@ -2,4 +2,5 @@ rootProject.name = 'spring'
 include 'framework'
 include 'spring-exmple'
 include 'mybatis-spring'
+include 'springboot'
 

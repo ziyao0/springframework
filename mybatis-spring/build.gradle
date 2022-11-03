@@ -1,0 +1,5 @@
+dependencies {
+    api('org.springframework:spring-context:5.3.23')
+    api 'mysql:mysql-connector-java:8.0.30'
+    api 'org.mybatis:mybatis:3.5.11'
+}

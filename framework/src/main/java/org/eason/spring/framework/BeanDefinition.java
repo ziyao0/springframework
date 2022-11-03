@@ -1,7 +1,7 @@
 package org.eason.spring.framework;
 
 /**
- * @author zhangziyao
+ * @author Eason
  * @date 2022/7/20 16:02
  */
 public class BeanDefinition {
